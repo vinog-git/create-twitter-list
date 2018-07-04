@@ -1,0 +1,21 @@
+{
+  "name": "create-twitter-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "ViNo G <vinovinothg@gmail.com> (https://github.com/vinog-git)",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "mongodb": "^3.1.0",
+    "request": "^2.87.0",
+    "twitter": "^1.7.1"
+  }
+}
