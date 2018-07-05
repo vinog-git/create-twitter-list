@@ -7,6 +7,6 @@ const startAdding = require('./src/scripts/index');
 const PORT = process.env.PORT;
 server.listen(PORT, () => console.log(`Server bound at ${PORT}`));
 
-// let collection_name = process.argv[2];
+let collection_name = process.argv[2];
 
-startAdding('a r rahman');
+startAdding(collection_name);
